@@ -2,6 +2,8 @@
     padding: 10px;
     text-align: center;
     position: relative; 
+    font-size: 12px;
+    padding: 12px;
 }
 
 .scrolling-announcement-bar button.slick-arrow {
