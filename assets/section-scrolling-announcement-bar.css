@@ -1,0 +1,26 @@
+.scrolling-announcement-bar {
+    padding: 10px;
+    text-align: center;
+    position: relative; 
+}
+
+.scrolling-announcement-bar button.slick-arrow {
+    background: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    z-index: 99;
+}
+
+.scrolling-announcement-bar .slick-prev {
+    left: 10px; 
+}
+
+.scrolling-announcement-bar .slick-next {
+    right: 10px;
+}
+

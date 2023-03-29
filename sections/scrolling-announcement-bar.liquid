@@ -1,0 +1,86 @@
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+{% comment %} TO DO ///  Might be better ti have the files in project rather than use CDN?  <script type="text/javascript" src="slick/slick.min.js"></script>
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/> {% endcomment %}
+
+{{ 'section-scrolling-announcement-bar.css' | asset_url | stylesheet_tag }}
+
+<div class="scrolling-announcement-bar">
+    {%- for block in section.blocks -%}
+        <div>{{block.settings.text}}</div>
+    {%- endfor -%}
+</div>
+
+<style> 
+    .scrolling-announcement-bar {
+        background: {{section.settings.color}};
+        color: {{section.settings.text_color}};
+    }
+</style>
+
+<script>
+    $(document).ready(function(){
+        $('.scrolling-announcement-bar').slick({
+            // settings... 
+            autoplay: {{section.settings.autoplay}},
+            autoplaySpeed: 7000,
+            prevArrow: '<button type="button" class="slick-prev"><</button>',
+            nextArrow: '<button type="button" class="slick-next">></button>',
+            arrows: {{section.settings.arrows}}
+        });
+    });
+</script>
+
+{% schema %}
+  {
+  "name": "Scrolling Announcements",
+  "class": "scrolling-announcements",
+  "settings": [
+            {
+                "type": "color",
+                "id": "color",
+                "default": "#ffffff",
+                "label": "Set a background color"
+            },
+            {
+                "type": "color",
+                "id": "text_color",
+                "default": "#000000",
+                "label": "Set a text color"
+            },
+            {
+                "type": "checkbox",
+                "id": "arrows",
+                "default": false,
+                "label": "Show arrows?"
+            },
+            {
+                "type": "checkbox",
+                "id": "autoplay",
+                "default": false,
+                "label": "Autoplay the slider?"
+            }
+  ],
+  "blocks": [
+    {
+        "type": "announcement",
+        "name": "Add a slide",
+        "settings": [
+            {
+            "type": "text",
+            "id": "text",
+            "default": "Welcome to our store",
+            "label": "Place some copy for your slide"
+            }]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Scrolling Announcements"
+    }
+  ]
+}  
+{% endschema %}
