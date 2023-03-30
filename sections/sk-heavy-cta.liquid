@@ -7,7 +7,9 @@
         <h2>
             {{ section.settings.headline }}
         </h2>
-        <button class="sk-btn"><a href="{{ section.settings.btn_url }}"> {{ section.settings.btn_copy }} </a></button>
+        {% if section.settings.btn_url != blank and section.settings.btn_copy != blank %}
+            <button class="sk-btn"><a href="{{ section.settings.btn_url }}"> {{ section.settings.btn_copy }} </a></button>
+        {% endif %}
     </div>
 </div>
 
@@ -34,6 +36,11 @@
           "id": "btn_copy",
           "default": "Find out more",
           "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button url"
     },
     {
         "type": "color",
