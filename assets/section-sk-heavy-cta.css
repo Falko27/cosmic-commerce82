@@ -1,0 +1,27 @@
+.sk-heavy-cta {
+    padding: 5px 0px;
+}
+
+/* Should this be in an overwrites file? */
+.sk-heavy-cta h2 {
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: -1px;
+}
+
+.sk-btn {
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.sk-btn a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 20px 35px;
+}

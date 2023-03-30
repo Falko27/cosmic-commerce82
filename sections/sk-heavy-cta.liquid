@@ -1,0 +1,67 @@
+{% comment %} Simple cta - heading text and call to action...  {% endcomment %}
+
+{{ 'section-sk-heavy-cta.css' | asset_url | stylesheet_tag }}
+
+<div class="sk-heavy-cta">
+    <div class="page-width {% if section.settings.text_style == 'center'  %} center {% endif %}">
+        <h2>
+            {{ section.settings.headline }}
+        </h2>
+        <button class="sk-btn"><a href="{{ section.settings.btn_url }}"> {{ section.settings.btn_copy }} </a></button>
+    </div>
+</div>
+
+<style> 
+    .sk-heavy-cta {
+        background: {{section.settings.color}};
+        color: {{section.settings.text_color}};
+    }
+</style>
+
+{% schema %}
+  {
+  "name": "sk-heavy-cta",
+  "class": "sk-heavy-cta",
+  "settings": [
+    {
+          "type": "text",
+          "id": "headline",
+          "default": "ShopKraft are Shopify specialists that focus on details and execution. Providing high end design and development services for exciting brands that want to take their e-commerce platforms to the next level. ",
+          "label": "Add a headline"
+    },
+    {
+          "type": "text",
+          "id": "btn_copy",
+          "default": "Find out more",
+          "label": "Button text"
+    },
+    {
+        "type": "color",
+        "id": "color",
+        "default": "#efefef",
+        "label": "Set a background color"
+    },
+    {
+          "type": "select",
+          "id": "text_style",
+          "options": [
+            {
+              "value": "center",
+              "label": "Center text"
+            },
+            {
+              "value": "left-align",
+              "label": "Left align text"
+            }
+          ],
+          "default": "left-align",
+          "label": "Set text alignment"
+        }
+  ],
+  "presets": [
+    {
+      "name": "sk-heavy-cta"
+    }
+  ]
+}  
+{% endschema %}
