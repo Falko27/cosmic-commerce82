@@ -28,6 +28,10 @@
 
 /* typography */
 
+p {
+    letter-spacing: 1.3px;
+}
+
 h2.skh2 {
     font-weight: 700;
     font-size: 32px;
