@@ -1,0 +1,92 @@
+{% comment %} Heading, copy, call to action and logo wall...  {% endcomment %}
+
+{{ 'section-sk-partners.css' | asset_url | stylesheet_tag }}
+
+<div class="sk-partners">
+    <div class="page-width center">
+        {% if section.settings.headline != blank %}
+            <h2 class="skh2">{{ section.settings.headline }}</h2>
+        {% endif %}
+
+        {% if section.settings.copy != blank %}
+            <p>{{ section.settings.copy }}</p>
+        {% endif %}
+
+        {% if section.settings.btn_url != blank and section.settings.btn_copy != blank %}
+            <button class="sk-btn">
+                <a href="{{ section.settings.btn_url }}">{{ section.settings.btn_copy }}</a>
+            </button>
+        {% endif %}
+
+        <div class="image-block flex">
+            {%- for block in section.blocks -%}
+                <div class="image-block__block">
+                    <img src="{{ block.settings.image | img_url: 'large' }}">
+                </div>
+            {%- endfor -%}
+        </div>
+    </div>
+</div>
+
+{% style %}
+    {% if section.settings.image_color == true %}
+        .image-block__block img {
+            -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(100%);
+        }
+    {% endif %}
+{% endstyle %}
+
+{% schema %}
+  {
+  "name": "sk-partners",
+  "class": "sk-partners",
+  "settings": [
+    {
+          "type": "text",
+          "id": "headline",
+          "default": "Supercharge your e-commerce platform with an app intergration that boosts your conversion rate.",
+          "label": "Add a headline"
+    },
+    {
+          "type": "text",
+          "id": "copy",
+          "default": "We can help you to intergrate with the latest software solutions you need to lower bounce rate, level up your analytics and capture better user information. We have knowledge of a range of the best applications available for shopify to help improve your store, build brand awareness and create a harmonius user experience for your customers.",
+          "label": "Add a headline"
+    },
+    {
+          "type": "text",
+          "id": "btn_copy",
+          "default": "Find out more",
+          "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button url"
+    },
+    {
+        "type": "checkbox",
+        "id": "image_color",
+        "default": false,
+        "label": "Make images black & white?"
+    }
+  ],
+  "blocks": [{
+    "type": "Image",
+    "name": "Image",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Add an image"
+        }
+    ]
+  }],
+  "presets": [
+    {
+      "name": "sk-partners"
+    }
+  ]
+}  
+{% endschema %}

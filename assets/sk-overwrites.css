@@ -1,0 +1,35 @@
+
+
+/* helpers */
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* button */
+.sk-btn {
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.sk-btn a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 20px 35px;
+}
+
+/* typography */
+
+h2.skh2 {
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: -1px;
+}

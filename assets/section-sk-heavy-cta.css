@@ -1,5 +1,5 @@
 .sk-heavy-cta {
-    padding: 5px 0px;
+    padding: 30px 0px;
 }
 
 /* Should this be in an overwrites file? */
@@ -9,19 +9,3 @@
     letter-spacing: -1px;
 }
 
-.sk-btn {
-    background: black;
-    color: white;
-    border: none;
-    border-radius: 9px;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-}
-
-.sk-btn a {
-    color: #fff;
-    text-decoration: none;
-    display: block;
-    width: 100%;
-    padding: 20px 35px;
-}
