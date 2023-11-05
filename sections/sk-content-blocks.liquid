@@ -1,0 +1,126 @@
+{% assign ss = section.settings %}
+{{ 'sk-content-blocks.css' | asset_url | stylesheet_tag }}
+
+<div class="sk-content-blocks">
+
+  <div class="sk-content-blocks__header">
+    <h2>
+      {{ ss.title }}
+    </h2>
+    <p>{{ ss.text }}</p>
+  </div>
+
+  <div class="sk-content-blocks__blocks">
+
+  {% for block in section.blocks %}
+    <div class="block">
+      {{ block.settings.title }}
+    </div>
+  {% endfor %}
+
+  </div>
+
+</div>
+
+{% schema %}
+  {
+  "name": "SK Content Blocks",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "info": "Add a title",
+      "default": "An Interesting Title..."
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text",
+      "info": "Add some text... ",
+      "default": "some engaging text to lead people in... "
+    },
+    {
+      "type": "select",
+      "id": "per_row_on_desktop_",
+      "label": "Per row on desktop... ",
+      "options": [
+        {
+          "value": "two",
+          "label": "two"
+        },
+        {
+          "value": "three",
+          "label": "three"
+        },
+        {
+          "value": "four",
+          "label": "four"
+        },
+        {
+          "value": "five",
+          "label": "five"
+        }
+      ],
+      "default": "three",
+      "info": "Define how many blocks per row on desktop"
+    },
+    {
+      "type": "select",
+      "id": "per_row_on_mobile",
+      "label": "Per row on mobile...",
+      "options": [
+        {
+          "value": "two",
+          "label": "two"
+        },
+        {
+          "value": "three",
+          "label": "three"
+        },
+        {
+          "value": "four",
+          "label": "four"
+        },
+        {
+          "value": "five",
+          "label": "five"
+        }
+      ],
+      "default": "three",
+      "info": "Define how many blocks per row on mobile"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Content Blocks",
+      "type": "content_blocks",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "info": "Add a title to the block..."
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "Add an image to the block"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "info": "Add some text to the block..."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "SK Content Blocks"
+    }
+  ]
+}  
+{% endschema %}

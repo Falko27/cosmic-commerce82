@@ -1,0 +1,17 @@
+.sk-content-blocks{
+    border: solid 1px red;
+}
+
+.sk-content-blocks__header{
+    text-align: center;
+}
+
+.sk-content-blocks__blocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sk-content-blocks__blocks .block {
+    text-align: center;
+    padding: 10px;
+}
