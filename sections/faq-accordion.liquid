@@ -1,0 +1,73 @@
+{% assign ss = section.settings %}
+
+<div class="faq-accordion page-width">
+
+  {% if ss.title != blank %}
+    <h2>{{ ss.title }}</h2>
+  {% endif %} 
+
+  {% if ss.copy != blank %}
+    <p>{{ ss.copy }}</p>
+  {% endif %}
+
+  <div class="faq-container">
+
+    {%- for block in section.blocks -%}
+        <div class="faq-container__block">
+          {{ block.settings.faq_title }} 
+
+          {{ block.settings.faq_copy }} 
+        </div>
+    {%- endfor -%}
+
+  </div>
+
+</div>
+
+{% schema %}
+  {
+  "name": "FAQ Accordion (product)",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title", 
+      "default": "FAQs"
+    },
+    {
+      "type": "textarea",
+      "id": "copy",
+      "label": "Copy"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "FAQ",
+      "type": "faq",
+      "settings": [
+        {
+          "type": "text",
+          "id": "faq_title",
+          "label": "FAQ Title"
+        },
+        {
+          "type": "richtext",
+          "id": "faq_copy",
+          "label": "FAQ Copy"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "FAQ Accordion (product)"
+    }
+  ]
+}  
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
