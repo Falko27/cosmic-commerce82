@@ -2298,7 +2298,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 .header-wrapper {
   display: block;
   position: relative;
-  background-color: #ffffff;
+  background-color: #ffffff !important;
 }
 
 .header-wrapper--border-bottom {
