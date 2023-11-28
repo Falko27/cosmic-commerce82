@@ -72,10 +72,21 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
+    },
+    "fa4c7742-7922-4d58-8940-207f57b56dd2": {
+      "type": "sk-heavy-cta",
+      "settings": {
+        "headline": "Culture Vulture is the place to find unique posters to adorn any room. Impress your friends and slip away from the mainstream. All the posters you will find here are designed 'in house' and are not sold anywhere else.",
+        "btn_copy": "Find out more",
+        "btn_url": "",
+        "color": "#ffffff",
+        "text_style": "left-align"
+      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "fa4c7742-7922-4d58-8940-207f57b56dd2"
   ]
 }
