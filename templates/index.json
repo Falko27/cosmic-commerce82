@@ -88,7 +88,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Illustrative",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "<p>Iconic character posters in an illustrative style. <\/p>",
         "show_description": false,
         "description_style": "body",
