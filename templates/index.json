@@ -6,14 +6,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Culture Vulture",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Unique posters that you won't find anywhere else.",
             "text_style": "body"
           }
         },
@@ -35,11 +35,12 @@
         "button"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
+        "image": "shopify:\/\/shop_images\/andreas-fickl-o1xcUi-Yt_w-unsplash.jpg",
+        "image_overlay_opacity": 60,
         "image_height": "medium",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "middle-left",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
@@ -49,7 +50,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "New.",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -72,10 +73,49 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
+    },
+    "fa4c7742-7922-4d58-8940-207f57b56dd2": {
+      "type": "sk-heavy-cta",
+      "settings": {
+        "headline": "Culture Vulture is the place to find unique posters to adorn any room. Impress your friends and slip away from the mainstream. All the posters you will find here are designed 'in house' and are not sold anywhere else.",
+        "btn_copy": "Find out more",
+        "btn_url": "",
+        "color": "#ffffff",
+        "text_style": "left-align"
+      }
+    },
+    "81518e32-fc52-47b3-8291-f87f1cb3c6b9": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Music Posters",
+        "heading_size": "h2",
+        "description": "<p>Take a look at our collection of music inspired posters...<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "music",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "fa4c7742-7922-4d58-8940-207f57b56dd2",
+    "81518e32-fc52-47b3-8291-f87f1cb3c6b9"
   ]
 }
