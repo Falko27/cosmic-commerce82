@@ -118,11 +118,31 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "0a470e8c-ba0d-48aa-a562-ec74a53e72af": {
+      "type": "faq-accordion",
+      "blocks": {
+        "98b3944d-2a69-4872-b4c0-1039b707a438": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "Shipping Information",
+            "faq_copy": "<p>All of our products are usually shipped within 2\/3 business days and should arrive at their desination 5 days from being ordered. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "98b3944d-2a69-4872-b4c0-1039b707a438"
+      ],
+      "settings": {
+        "title": "FAQs",
+        "copy": ""
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "a98779b7-a464-42f8-bda2-48ba7bf8e997"
+    "a98779b7-a464-42f8-bda2-48ba7bf8e997",
+    "0a470e8c-ba0d-48aa-a562-ec74a53e72af"
   ]
 }
