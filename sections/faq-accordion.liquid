@@ -6,24 +6,31 @@
 <div class="faq-accordion page-width">
 
   {% if ss.title != blank %}
-    <h2>{{ ss.title }}</h2>
+    <h2 class="title h1">{{ ss.title }}</h2>
   {% endif %} 
 
   {% if ss.copy != blank %}
     <p>{{ ss.copy }}</p>
   {% endif %}
 
-  <div class="faq-container">
+  <faq-accordion>
+    <div class="faq-container">
 
-    {%- for block in section.blocks -%}
-        <div class="faq-container__block">
-          {{ block.settings.faq_title }} 
+      {%- for block in section.blocks -%}
+          <div class="faq-container__block">
+      
+            <div class="faq-container__block__header">
+              {{ block.settings.faq_title }} 
+            </div>
+            
+            <div class="faq-container__block__copy">
+              {{ block.settings.faq_copy }} 
+            </div>
+          </div>
+      {%- endfor -%}
 
-          {{ block.settings.faq_copy }} 
-        </div>
-    {%- endfor -%}
-
-  </div>
+    </div>
+  </faq-accordion>
 
 </div>
 

@@ -1,3 +1,26 @@
 .faq-accordion {
     border: solid 1px red;
 }
+
+.faq-container__block {
+    margin-bottom: 1rem;
+}
+
+.faq-container__block__header {
+    cursor: pointer;
+    background-color: rgba(var(--color-button),var(--alpha-button-background));
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    padding: 1rem;
+    color: white;
+}
+
+.faq-container__block__copy {
+    display: none;
+    padding: 1rem 3rem;
+    border: solid 1px #bbbbbb;
+}
+
+.faq-container__block__copy.show {
+    display: block;
+}
