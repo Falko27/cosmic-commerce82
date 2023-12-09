@@ -80,15 +80,15 @@
         "98b3944d-2a69-4872-b4c0-1039b707a438": {
           "type": "faq",
           "settings": {
-            "faq_title": "Shipping Information",
-            "faq_copy": "<p>All of our products are usually shipped within 2\/3 business days and should arrive at their desination 5 days from being ordered. <\/p>"
+            "faq_title": "Shipping Information\/ Returns",
+            "faq_copy": "<p>All of our products are usually shipped within <strong>2\/3 business days<\/strong> and should arrive at their destination 5 days from being ordered. <br\/><br\/>If for any reason you are not happy with your poster or it is not as you expected, your are free to get in touch with us and we can organise you a refund on the condition that the poster is returned. <\/p>"
           }
         },
         "2ce0c1e0-1919-4f84-9efa-a4f3bc52adb7": {
           "type": "faq",
           "settings": {
             "faq_title": "Product Specification",
-            "faq_copy": "<p>All of our possters are printed on 220GSM uncoated paper. This is a high quality paper and feels like a high quality product.  <\/p>"
+            "faq_copy": "<p>All of our possters are printed on <strong>220GSM uncoated paper<\/strong>. This is a high quality paper and feels like a high quality product.  <\/p>"
           }
         }
       },
