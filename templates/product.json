@@ -74,6 +74,33 @@
         "padding_bottom": 12
       }
     },
+    "0a470e8c-ba0d-48aa-a562-ec74a53e72af": {
+      "type": "faq-accordion",
+      "blocks": {
+        "98b3944d-2a69-4872-b4c0-1039b707a438": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "Shipping Information",
+            "faq_copy": "<p>All of our products are usually shipped within 2\/3 business days and should arrive at their desination 5 days from being ordered. <\/p>"
+          }
+        },
+        "2ce0c1e0-1919-4f84-9efa-a4f3bc52adb7": {
+          "type": "faq",
+          "settings": {
+            "faq_title": "Product Specification",
+            "faq_copy": "<p>All of our possters are printed on 220GSM uncoated paper. This is a high quality paper and feels like a high quality product.  <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "98b3944d-2a69-4872-b4c0-1039b707a438",
+        "2ce0c1e0-1919-4f84-9efa-a4f3bc52adb7"
+      ],
+      "settings": {
+        "title": "FAQs",
+        "copy": ""
+      }
+    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -118,31 +145,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "0a470e8c-ba0d-48aa-a562-ec74a53e72af": {
-      "type": "faq-accordion",
-      "blocks": {
-        "98b3944d-2a69-4872-b4c0-1039b707a438": {
-          "type": "faq",
-          "settings": {
-            "faq_title": "Shipping Information",
-            "faq_copy": "<p>All of our products are usually shipped within 2\/3 business days and should arrive at their desination 5 days from being ordered. <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "98b3944d-2a69-4872-b4c0-1039b707a438"
-      ],
-      "settings": {
-        "title": "FAQs",
-        "copy": ""
-      }
     }
   },
   "order": [
     "main",
+    "0a470e8c-ba0d-48aa-a562-ec74a53e72af",
     "related-products",
-    "a98779b7-a464-42f8-bda2-48ba7bf8e997",
-    "0a470e8c-ba0d-48aa-a562-ec74a53e72af"
+    "a98779b7-a464-42f8-bda2-48ba7bf8e997"
   ]
 }
