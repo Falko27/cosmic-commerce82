@@ -9,6 +9,32 @@
     letter-spacing: .1rem;
     padding: 1rem;
     color: white;
+    display: flex;
+    align-items: center;
+}
+
+.faq-container__block__header .text {
+    flex-grow: 1;
+}
+
+.faq-container__block__header .icon {
+    width: 20px;
+}
+
+.faq-container__block__header .icon-plus {
+    display: block;
+}
+
+.faq-container__block__header.show .icon-plus {
+    display: none;
+}
+
+.faq-container__block__header .icon-minus {
+    display: none;
+}
+
+.faq-container__block__header.show .icon-minus {
+    display: block;
 }
 
 .faq-container__block__copy {

@@ -22,7 +22,9 @@
             <div class="faq-container__block">
         
               <div class="faq-container__block__header">
-                {{ block.settings.faq_title }} 
+                <span class="text">{{ block.settings.faq_title }}</span> 
+                <span class="icon icon-plus">{% render 'icon-plus' %}</span>
+                <span class="icon icon-minus">{% render 'icon-minus' %}</span>
               </div>
               
               <div class="faq-container__block__copy">
