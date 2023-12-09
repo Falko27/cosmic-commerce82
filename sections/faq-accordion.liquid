@@ -1,38 +1,42 @@
 {% assign ss = section.settings %}
 
-{{ 'faq-accordion.css' | asset_url | stylesheet_tag }}
-<script src="{{ 'faq-accordion.js' | asset_url }}" defer="defer"></script>
+{% if section.blocks.size > 0 %}
 
-<div class="faq-accordion page-width">
+  {{ 'faq-accordion.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'faq-accordion.js' | asset_url }}" defer="defer"></script>
 
-  {% if ss.title != blank %}
-    <h2 class="title h1">{{ ss.title }}</h2>
-  {% endif %} 
+  <div class="faq-accordion page-width">
 
-  {% if ss.copy != blank %}
-    <p>{{ ss.copy }}</p>
-  {% endif %}
+    {% if ss.title != blank %}
+      <h2 class="title h1">{{ ss.title }}</h2>
+    {% endif %} 
 
-  <faq-accordion>
-    <div class="faq-container">
+    {% if ss.copy != blank %}
+      <p>{{ ss.copy }}</p>
+    {% endif %}
 
-      {%- for block in section.blocks -%}
-          <div class="faq-container__block">
-      
-            <div class="faq-container__block__header">
-              {{ block.settings.faq_title }} 
+    <faq-accordion>
+      <div class="faq-container">
+
+        {%- for block in section.blocks -%}
+            <div class="faq-container__block">
+        
+              <div class="faq-container__block__header">
+                {{ block.settings.faq_title }} 
+              </div>
+              
+              <div class="faq-container__block__copy">
+                {{ block.settings.faq_copy }} 
+              </div>
             </div>
-            
-            <div class="faq-container__block__copy">
-              {{ block.settings.faq_copy }} 
-            </div>
-          </div>
-      {%- endfor -%}
+        {%- endfor -%}
 
-    </div>
-  </faq-accordion>
+      </div>
+    </faq-accordion>
 
-</div>
+  </div>
+
+{% endif %}
 
 {% schema %}
   {
