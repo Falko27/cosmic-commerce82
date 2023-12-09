@@ -1,5 +1,8 @@
 {% assign ss = section.settings %}
 
+{{ 'faq-accordion.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'faq-accordion.js' | asset_url }}" defer="defer"></script>
+
 <div class="faq-accordion page-width">
 
   {% if ss.title != blank %}
