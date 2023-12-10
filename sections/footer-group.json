@@ -29,6 +29,7 @@
         "sections--21546720100672__3ed44ba4-0f26-46e2-8a3b-c32c203895dd-paragraph-1",
         "sections--21546720100672__3ed44ba4-0f26-46e2-8a3b-c32c203895dd-email_form-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
@@ -39,6 +40,13 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "3cc3615f-afde-4046-b91d-dc0b336fcc7c": {
+          "type": "text",
+          "settings": {
+            "heading": "About",
+            "subtext": "<p>Culture Vulture is a place to find the digital designs and graphic creations of Dan Faulkner. Normally found writing code for Shopify websites. Like what you see, wanna chat, feel free to email me on <strong>dan.faulkner8200@gmail.com<br\/><br\/><\/strong>Culture Vulture came into existance in 2023. <\/p>"
+          }
+        },
         "7e194de4-4139-4950-82a4-1ac30bcfc85c": {
           "type": "link_list",
           "settings": {
@@ -48,6 +56,7 @@
         }
       },
       "block_order": [
+        "3cc3615f-afde-4046-b91d-dc0b336fcc7c",
         "7e194de4-4139-4950-82a4-1ac30bcfc85c"
       ],
       "settings": {
