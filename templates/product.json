@@ -149,6 +149,14 @@
     "562bd682-94c1-4952-8a30-e5c9c194ec6e": {
       "type": "image-with-text",
       "blocks": {
+        "18650738-851d-4bbb-8bea-7fc001d82b3c": {
+          "type": "caption",
+          "settings": {
+            "caption": "featured product",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "template--21546720723264__562bd682-94c1-4952-8a30-e5c9c194ec6e-heading-1": {
           "type": "heading",
           "settings": {
@@ -172,6 +180,7 @@
         }
       },
       "block_order": [
+        "18650738-851d-4bbb-8bea-7fc001d82b3c",
         "template--21546720723264__562bd682-94c1-4952-8a30-e5c9c194ec6e-heading-1",
         "template--21546720723264__562bd682-94c1-4952-8a30-e5c9c194ec6e-text-1",
         "template--21546720723264__562bd682-94c1-4952-8a30-e5c9c194ec6e-button-1"
