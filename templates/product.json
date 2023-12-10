@@ -145,12 +145,57 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "562bd682-94c1-4952-8a30-e5c9c194ec6e": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21546720723264__562bd682-94c1-4952-8a30-e5c9c194ec6e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mad Man",
+            "heading_size": "h1"
+          }
+        },
+        "template--21546720723264__562bd682-94c1-4952-8a30-e5c9c194ec6e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This rendering of the iconic character 'Don Draper' takes a hint from the stylish designs that gave the move 'Trainspotting' its unique imagery. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--21546720723264__562bd682-94c1-4952-8a30-e5c9c194ec6e-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find Out More",
+            "button_link": "shopify:\/\/products\/mad-man"
+          }
+        }
+      },
+      "block_order": [
+        "template--21546720723264__562bd682-94c1-4952-8a30-e5c9c194ec6e-heading-1",
+        "template--21546720723264__562bd682-94c1-4952-8a30-e5c9c194ec6e-text-1",
+        "template--21546720723264__562bd682-94c1-4952-8a30-e5c9c194ec6e-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DonDraperSquare.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "0a470e8c-ba0d-48aa-a562-ec74a53e72af",
     "related-products",
-    "a98779b7-a464-42f8-bda2-48ba7bf8e997"
+    "a98779b7-a464-42f8-bda2-48ba7bf8e997",
+    "562bd682-94c1-4952-8a30-e5c9c194ec6e"
   ]
 }
