@@ -8,8 +8,8 @@
         "7e194de4-4139-4950-82a4-1ac30bcfc85c": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "Collections",
+            "menu": "collections-menu"
           }
         }
       },
