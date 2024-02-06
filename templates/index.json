@@ -85,6 +85,7 @@
     },
     "2b8517c5-ce43-432e-9a78-7a1a8c7a17f6": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Illustrative",
         "heading_size": "h2",
@@ -112,6 +113,7 @@
     },
     "81518e32-fc52-47b3-8291-f87f1cb3c6b9": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Music Posters",
         "heading_size": "h2",
