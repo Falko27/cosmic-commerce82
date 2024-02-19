@@ -103,29 +103,19 @@
             "row_content": "<p>Products are made to order and should be received 1-3 days after your purchase has been made. <\/p>",
             "page": ""
           }
-        },
-        "collapsible_row_eeQ6BA": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "collapsible_row_WyxGXm",
         "collapsible_row_9rAJ39",
-        "collapsible_row_i7Kzyj",
-        "collapsible_row_eeQ6BA"
+        "collapsible_row_i7Kzyj"
       ],
       "settings": {
-        "caption": "",
-        "heading": "FAQs",
+        "caption": "All the boring stuff that is often handy to know.",
+        "heading": "Frequently Asked Questions.",
         "heading_size": "h2",
-        "heading_alignment": "center",
-        "layout": "row",
+        "heading_alignment": "left",
+        "layout": "none",
         "color_scheme": "inverse",
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
