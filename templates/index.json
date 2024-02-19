@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Culture Vulture",
+            "heading": "MANIFESTO.",
             "heading_size": "h0"
           }
         },
@@ -35,7 +35,6 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/andreas-fickl-o1xcUi-Yt_w-unsplash.jpg",
         "image_overlay_opacity": 60,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -63,8 +62,8 @@
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
