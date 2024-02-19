@@ -86,12 +86,12 @@
     "81518e32-fc52-47b3-8291-f87f1cb3c6b9": {
       "type": "featured-collection",
       "settings": {
-        "title": "Artists selection",
+        "title": "Kids selection",
         "heading_size": "h2",
-        "description": "<p>Take a look at our collection of artist inspired posters...<\/p>",
+        "description": "<p>Cool kids know the value and importance of the written word. <\/p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "music",
+        "collection": "kids",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
