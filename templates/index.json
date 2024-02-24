@@ -13,7 +13,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "Inspiration is everywhere.",
+            "text": "Show the world what kind of rebel you are, what inspires your Manifesto?",
             "text_style": "body"
           }
         },
@@ -137,6 +137,53 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_banner_RKEAAm": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_djAUGn": {
+          "type": "heading",
+          "settings": {
+            "heading": "The only person I really believe in is me.",
+            "heading_size": "h2"
+          }
+        },
+        "text_6cWbd6": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_yxdgL8": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Explore",
+            "button_link_1": "shopify:\/\/collections\/women",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_djAUGn",
+        "text_6cWbd6",
+        "buttons_yxdgL8"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/blondie..jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -144,6 +191,7 @@
     "featured_collection",
     "fa4c7742-7922-4d58-8940-207f57b56dd2",
     "featured_collection_UADqLP",
-    "81518e32-fc52-47b3-8291-f87f1cb3c6b9"
+    "81518e32-fc52-47b3-8291-f87f1cb3c6b9",
+    "image_banner_RKEAAm"
   ]
 }
