@@ -2,6 +2,10 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "custom_css": [
+        ".collection-hero--with-image {padding:0}",
+        ".collection-hero__image-container {min-height: 50rem;}"
+      ],
       "settings": {
         "show_collection_description": true,
         "show_collection_image": true,
