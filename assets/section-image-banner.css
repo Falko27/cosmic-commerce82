@@ -4,6 +4,10 @@
   flex-direction: column;
 }
 
+.banner h2 {
+  font-weight: 900;
+}
+
 .banner__box {
   text-align: center;
 }
