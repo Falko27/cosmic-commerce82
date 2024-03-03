@@ -3,6 +3,8 @@
 
 <div class="collection-navigation page-width">
 
+{{ collection.handle  }}
+
   {%- for block in section.blocks -%}
     {%- assign choose_a_collection = block.settings.choose_a_collection -%}
     <div class="collection-navigation__item">
