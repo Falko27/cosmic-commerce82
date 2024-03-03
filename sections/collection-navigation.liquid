@@ -1,5 +1,7 @@
 
-<div class="collection-navigation">
+{{ 'collection-navigation.css' | asset_url | stylesheet_tag }}
+
+<div class="collection-navigation page-width">
 
   {%- for block in section.blocks -%}
     {%- assign choose_a_collection = block.settings.choose_a_collection -%}

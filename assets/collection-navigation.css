@@ -1,0 +1,15 @@
+.collection-navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.collection-navigation__item {
+    padding: 10px;
+}
+
+.collection-navigation__item h2 a {
+    padding: 10px;
+    color: currentColor;
+    text-decoration: none;
+    font-size: 24px;
+}
