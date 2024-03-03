@@ -50,6 +50,12 @@
           "settings": {
             "choose_a_collection": "literature"
           }
+        },
+        "collection_rVJVn7": {
+          "type": "collection",
+          "settings": {
+            "choose_a_collection": "icons"
+          }
         }
       },
       "block_order": [
@@ -58,7 +64,8 @@
         "collection_gHrrRg",
         "collection_fC4LrK",
         "collection_9j8LGK",
-        "collection_TNX8Lb"
+        "collection_TNX8Lb",
+        "collection_rVJVn7"
       ],
       "settings": {
       }
