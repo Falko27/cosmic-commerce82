@@ -1,6 +1,6 @@
 .collection-navigation {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .collection-navigation__item {
