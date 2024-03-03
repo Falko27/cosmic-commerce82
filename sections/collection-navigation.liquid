@@ -1,0 +1,41 @@
+
+<div class="collection-navigation">
+
+  {%- for block in section.blocks -%}
+    {%- assign choose_a_collection = block.settings.choose_a_collection -%}
+    <div class="collection-navigation__item">
+      <h2>
+        <a href="{{ choose_a_collection.url }}">{{ choose_a_collection.title }}</a>
+      </h2>
+    </div>
+  {%- endfor -%}
+
+</div>
+
+
+
+{% schema %}
+  {
+  "name": "Collection Sub Navigation",
+  "settings": [],
+  "blocks": [
+    {
+      "name": "Collection",
+      "type": "collection",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "choose_a_collection",
+          "label": "Choose a collection",
+          "info": "Choose a collection to add to the sub navigation... "
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection Sub Navigation"
+    }
+  ]
+  }  
+{% endschema %}
