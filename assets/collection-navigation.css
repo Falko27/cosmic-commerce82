@@ -1,15 +1,27 @@
 .collection-navigation {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .collection-navigation__item {
-    padding: 10px;
+  padding: 5px;
+  border: solid 1px currentColor;
+  margin: 5px;
+}
+
+.collection-navigation__item.active {
+  background-color: currentColor;
+  color: white;
+}
+
+.collection-navigation__item h2 {
+  line-height: 26px;
+  margin: 5px 0;
 }
 
 .collection-navigation__item h2 a {
-    padding: 10px;
-    color: currentColor;
-    text-decoration: none;
-    font-size: 24px;
+  padding: 10px;
+  color: currentColor;
+  text-decoration: none;
+  font-size: 24px;
 }

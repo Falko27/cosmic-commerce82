@@ -3,11 +3,9 @@
 
 <div class="collection-navigation page-width">
 
-{{ collection.handle  }}
-
   {%- for block in section.blocks -%}
     {%- assign choose_a_collection = block.settings.choose_a_collection -%}
-    <div class="collection-navigation__item">
+    <div class="collection-navigation__item {% if collection.handle == choose_a_collection.handle %}active{% endif %}">
       <h2>
         <a href="{{ choose_a_collection.url }}">{{ choose_a_collection.title }}</a>
       </h2>
