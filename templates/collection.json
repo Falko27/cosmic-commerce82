@@ -8,6 +8,64 @@
         "color_scheme": "background-1"
       }
     },
+    "collection_navigation_nAih4N": {
+      "type": "collection-navigation",
+      "blocks": {
+        "collection_kg4EKU": {
+          "type": "collection",
+          "settings": {
+            "choose_a_collection": "pixelated-culture"
+          }
+        },
+        "collection_digJiM": {
+          "type": "collection",
+          "settings": {
+            "choose_a_collection": "music"
+          }
+        },
+        "collection_YLdbQH": {
+          "type": "collection",
+          "settings": {
+            "choose_a_collection": "rebel-youth"
+          }
+        },
+        "collection_yywQVW": {
+          "type": "collection",
+          "settings": {
+            "choose_a_collection": "literature"
+          }
+        },
+        "collection_qLLkMf": {
+          "type": "collection",
+          "settings": {
+            "choose_a_collection": "women"
+          }
+        },
+        "collection_TnpPfg": {
+          "type": "collection",
+          "settings": {
+            "choose_a_collection": "inspirational"
+          }
+        },
+        "collection_ptk767": {
+          "type": "collection",
+          "settings": {
+            "choose_a_collection": "icons"
+          }
+        }
+      },
+      "block_order": [
+        "collection_kg4EKU",
+        "collection_digJiM",
+        "collection_YLdbQH",
+        "collection_yywQVW",
+        "collection_qLLkMf",
+        "collection_TnpPfg",
+        "collection_ptk767"
+      ],
+      "settings": {
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -29,6 +87,7 @@
   },
   "order": [
     "banner",
+    "collection_navigation_nAih4N",
     "product-grid"
   ]
 }
