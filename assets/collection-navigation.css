@@ -1,12 +1,16 @@
 .collection-navigation {
   display: flex;
   justify-content: flex-start;
+  padding: 1rem 5rem;
 }
 
 .collection-navigation__item {
-  padding: 5px;
   border: solid 1px currentColor;
   margin: 5px;
+}
+
+.collection-navigation__item:first-child{
+  margin-left: 0;
 }
 
 .collection-navigation__item.active {
@@ -23,5 +27,5 @@
   padding: 10px;
   color: currentColor;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 14px;
 }
