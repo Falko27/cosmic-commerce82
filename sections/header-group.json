@@ -13,10 +13,20 @@
             "color_scheme": "accent-1",
             "link": ""
           }
+        },
+        "announcement_Dj4iHX": {
+          "type": "announcement",
+          "settings": {
+            "text": "Write your Manifesto.",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_Dj4iHX"
       ],
       "settings": {
       }
