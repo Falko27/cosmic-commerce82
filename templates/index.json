@@ -50,8 +50,8 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "New Designs.",
-        "heading_size": "h2",
+        "title": "NEW IN.",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -87,7 +87,7 @@
     "featured_collection_UADqLP": {
       "type": "featured-collection",
       "settings": {
-        "title": "ICONS",
+        "title": "ICONS.",
         "heading_size": "h1",
         "description": "<p>Nothing helps get your creative juices flowing like the inspiration of an iconoclastic artist. These covers will remind you that with a little grit and determination, possibilities can become endless. <\/p>",
         "show_description": false,
