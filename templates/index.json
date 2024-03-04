@@ -87,8 +87,8 @@
     "featured_collection_UADqLP": {
       "type": "featured-collection",
       "settings": {
-        "title": "Icons",
-        "heading_size": "h2",
+        "title": "ICONS",
+        "heading_size": "h1",
         "description": "<p>Nothing helps get your creative juices flowing like the inspiration of an iconoclastic artist. These covers will remind you that with a little grit and determination, possibilities can become endless. <\/p>",
         "show_description": false,
         "description_style": "body",
@@ -115,7 +115,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "REBEL YOUTH.",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "description": "<p>Cool kids know the value and importance of the written word. Cool kids know that an expression of interests is the glue that forms movement and community. When we are united, then we can really affect change. <\/p>",
         "show_description": false,
         "description_style": "body",
