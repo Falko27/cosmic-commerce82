@@ -16,6 +16,7 @@
         },
         "announcement_Dj4iHX": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Write your Manifesto.",
             "text_alignment": "center",
