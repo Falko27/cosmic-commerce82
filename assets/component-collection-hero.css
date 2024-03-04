@@ -8,17 +8,6 @@
   padding-bottom: 2rem;
 }
 
-.collection-hero--with-image {
-  padding: 0;
-  position: relative;
-  min-height: 50rem;
-}
-
-.collection-hero__image-container img {
-  object-fit: cover;
-  object-position: top;
-}
-
 @media screen and (min-width: 750px) {
   .collection-hero.collection-hero--with-image {
     padding: calc(4rem + var(--page-width-margin)) 0
@@ -90,12 +79,6 @@
     var(--media-shadow-vertical-offset)
     var(--media-shadow-blur-radius)
     rgba(var(--color-shadow), var(--media-shadow-opacity));
-  min-height: 50rem;
-  position: absolute;
-  left: 0;
-  right: 0;
-  padding-left: 0;
-  margin: 0;
 }
 
 @media screen and (max-width: 749px) {
