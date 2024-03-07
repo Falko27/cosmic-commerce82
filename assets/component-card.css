@@ -8,6 +8,12 @@
 .card {
   text-decoration: none;
   text-align: var(--text-alignment);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+  border-radius: 2px;
+  background: #e8e8e8;
 }
 
 .card:not(.ratio) {

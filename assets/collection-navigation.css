@@ -14,8 +14,9 @@
 }
 
 .collection-navigation__item.active {
-  background-color: currentColor;
+  background-color: #e8e8e8;
   color: white;
+  border: #e8e8e8 solid 1px;
 }
 
 .collection-navigation__item h2 {

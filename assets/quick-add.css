@@ -208,6 +208,9 @@ quick-add-modal .product-form__buttons {
   padding: 0.8rem;
   min-width: 100%;
   box-sizing: border-box;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 quick-add-modal .product-media-container.constrain-height {
